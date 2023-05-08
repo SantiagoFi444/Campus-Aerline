@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus AirLines</title>
+    <link rel="icon" href="/images/logoPrincipal-xl.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/boostrap/bootstrap.min.css">
+    <script src="/js/jquery-3.6.4.slim.min.js.js" defer></script>
+    <script src="/myData/app.js" type="module" defer></script>
+    <script src="/js/boostrap/bootstrap.min.js" defer></script>
+    <script src="/js/@popperjs/core/dist/umd/popper.min.js" defer></script>
+</head>
+<body>
+
+<main-menu></main-menu>
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Registro de RUtas Aereas</h5>
+        <div class="card-body">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <form id = "frmRutas">
+                            <div class="row g-3">
+                                <div class="col-4">
+                                    <label for="nombreRuta" class="form-label">Nombre de la Ruta del Vuelo</label>
+                                    <input type="text" class="form-control" id="nombreRuta" name="nombreRuta">                  
+                                </div>
+                                <div class="col-4">
+                                    <label for="ciudadOrig" class="form-label">Ciudad de Origen de la Ruta del Vuelo</label>
+                                    <select class="form-select" aria-label="Default select example" id="ciudadOrig" name="ciudadOrig">
+                                        <option selected>Seleccione una ciudad de origen</option>
+                                        <option value="1">Bucaramanga</option>
+                                        <option value="2">Bogota</option>
+                                        <option value="3">Cartagena</option>
+                                        <option value="4">Nariño</option>
+                                        <option value="5">Cucuta</option>
+                                    </select>                  
+                                </div>
+                                <div class="col-4">
+                                    <label for="ciudadDest" class="form-label">Ciudad de Destino de la Ruta del Vuelo</label>
+                                    <select class="form-select" aria-label="Default select example" id="ciudadDest" name="ciudadDest">
+                                        <option selected>Seleccione una ciudad de destino</option>
+                                        <option value="1">Medellin</option>
+                                        <option value="2">Barranquilla</option>
+                                        <option value="3">Manizales</option>
+                                        <option value="4">Neiva</option>
+                                        <option value="5">Boyaca</option>
+                                    </select>                  
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <label for="totalMillas" class="form-label">Millas de la ruta del Vuelo</label>
+                                    <input type="number" value="4000" min="4000" max="4000" class="form-control" id="totalMillas" name="totalMillas">
+                                </div>
+                                <div class="col-6">
+                                    <label for="valorMillas" class="form-label">Valor de Millas de la ruta del Vuelo</label>
+                                    <input type="number" value="8000" min="8000" max="8000" class="form-control" id="valorMillas" name="valorMillas">
+                                </div>
+                                <div class="container mt-4 text-center" >
+                                    <input type="submit" data-accion="POST" class="btn btn-primary" value="Guardar Datos">  
+                                </div>
+                            </div>
+                        </form>                         
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

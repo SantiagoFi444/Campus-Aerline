@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus AirLines</title>
+    <link rel="icon" href="/images/logoPrincipal-xl.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/boostrap/bootstrap.min.css">
+    <script src="/js/jquery-3.6.4.slim.min.js.js" defer></script>
+    <script src="/myData/app.js" type="module" defer></script>
+    <script src="/js/boostrap/bootstrap.min.js" defer></script>
+    <script src="/js/@popperjs/core/dist/umd/popper.min.js" defer></script>
+</head>
+<body>
+
+<main-menu></main-menu>
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Registro de Clientes</h5>
+        <div class="card-body">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <form id = "frmClien">
+                            <div class="row g-3">
+                                <div class="col-3">
+                                    <label for="identifiacion" class="form-label">Cedula del Cliente</label>
+                                    <input type="text" class="form-control" id="identifiacion" name="identifiacion">                  
+                                </div>
+                                <div class="col-3">
+                                    <label for="nombres" class="form-label">Nombres del Cliente</label>
+                                    <input type="text" class="form-control" id="nombres" name="nombres">
+                                </div>
+                                <div class="col-3">
+                                    <label for="apellidos" class="form-label">Apellidos del Cliente</label>
+                                    <input type="text" class="form-control" id="apellidos" name="apellidos">                  
+                                </div>
+                                <div class="col-3">
+                                    <label for="telefono" class="form-label">Numero Telefono del Cliente</label>
+                                    <input type="text" class="form-control" id="telefono" name="telefono">                  
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-3">
+                                    <label for="fechaNac" class="form-label">Fecha Nacimiento del Cliente</label>
+                                    <input type="date" class="form-control" id="fechaNac" name="fechaNac">
+                                </div>
+                                <div class="col-3">
+                                    <label for="ciudadOrig" class="form-label">Ciudad de Origen del Cliente</label>
+                                    <select class="form-select" aria-label="Default select example" id="ciudadOrig" name="ciudadOrig">
+                                        <option selected>Seleccione una Ciudad</option>
+                                        <option value="1">Bucaramanga</option>
+                                        <option value="2">Bogota</option>
+                                        <option value="3">Santa Martha</option>
+                                        <option value="4">Cali</option>
+                                        <option value="5">Medellin</option>
+                                    </select>                  
+                                </div>
+                                <div class="col-3">
+                                    <label for="paisOrig" class="form-label">Pais de Origen del Cliente</label>
+                                    <select class="form-select" aria-label="Default select example" id="paisOrig" name="paisOrig">
+                                        <option selected>Seleccione un Pais</option>
+                                        <option value="1">Colombia</option>
+                                        <option value="2">Estados Unidos</option>
+                                        <option value="3">España</option>
+                                        <option value="4">Mexico</option>
+                                        <option value="5">Francia</option>
+                                    </select>                  
+                                </div>
+                                <div class="col-3">
+                                    <label for="email" class="form-label">Correo Electronico del Cliente</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="container mt-4 text-center" >
+                                    <input type="submit" data-accion="POST" class="btn btn-primary" value="Guardar Datos">  
+                                </div>
+                            </div>
+                        </form>                         
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

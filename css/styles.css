@@ -1,0 +1,13 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuerpo{
+    text-align: center;
+    padding: 15px;
+}
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center; 
+}

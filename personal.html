@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus AirLines</title>
+    <link rel="icon" href="/images/logoPrincipal-xl.png">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/boostrap/bootstrap.min.css">
+    <script src="/js/jquery-3.6.4.slim.min.js.js" defer></script>
+    <script src="/myData/app.js" type="module" defer></script>
+    <script src="/js/boostrap/bootstrap.min.js" defer></script>
+    <script src="/js/@popperjs/core/dist/umd/popper.min.js" defer></script>
+</head>
+<body>
+
+<main-menu></main-menu>
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Registro de Personal</h5>
+        <div class="card-body">
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <form id = "frmPer">
+                            <div class="row g-3">
+                                <div class="col-4">
+                                    <label for="identifiacion" class="form-label">Documento del Personal</label>
+                                    <input type="text" class="form-control" id="identifiacion" name="identifiacion">                  
+                                </div>
+                                <div class="col-4">
+                                    <label for="nombres" class="form-label">Nombres del Perosonal</label>
+                                    <input type="text" class="form-control" id="nombres" name="nombres">
+                                </div>
+                                <div class="col-4">
+                                    <label for="apellidos" class="form-label">Apellidos del Personal</label>
+                                    <input type="text" class="form-control" id="apellidos" name="apellidos">                  
+                                </div>
+                            </div>
+                            <div class="row g-3">
+                                <div class="col-4">
+                                    <label for="telefono" class="form-label">Numero de Telefono del Personal</label>
+                                    <input type="text" class="form-control" id="telefono" name="telefono">                  
+                                </div>
+                                <div class="col-4">
+                                    <label for="email" class="form-label">Correo Electronico del Personal</label>
+                                    <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="col-4">
+                                    <label for="ciudadOrig" class="form-label">Profesion de la Persona</label>
+                                    <select class="form-select" aria-label="Default select example" id="ciudadOrig" name="ciudadOrig">
+                                        <option selected>Seleccione  una Profesion</option>
+                                        <option value="1">Piloto</option>
+                                        <option value="2">Copiloto</option>
+                                        <option value="3">Azafata</option>
+                                    </select>                  
+                                </div>
+                                <div class="container mt-4 text-center" >
+                                    <input type="submit" data-accion="POST" class="btn btn-primary" value="Guardar Datos">  
+                                </div>
+                            </div>
+                        </form>                         
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

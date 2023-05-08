@@ -1,0 +1,226 @@
+{
+    "Clientes" : [
+        {
+            "identificacion": "1627384920",
+            "nombres": "Juan Alejandro",
+            "apellidos": "Dominguez Peñalte",
+            "telefono": 3183328192,
+            "fechaNac": "1998-03-23",
+            "ciudadOrig": "Lima",
+            "paisOrig": "Peru",
+            "email": "usuario32@gmail.com",
+            "id": "1"
+        },
+        {
+            "identificacion": "1727182902",
+            "nombres": "Kevin Andres",
+            "apellidos": "Manozalva",
+            "telefono": 3143920122,
+            "fechaNac": "1992-05-13",
+            "ciudadOrig": "Quito",
+            "paisOrig": "Ecuador",
+            "email": "usuario12@gmail.com",
+            "id": "2"
+        },
+        {
+            "identificacion": "1282843920",
+            "nombres": "Samuel Camilo",
+            "apellidos": "Ramirez Pinto",
+            "telefono": 3112039420,
+            "fechaNac": "2000-11-04",
+            "ciudadOrig": "Buenos Aires",
+            "paisOrig": "Argentina",
+            "email": "usuario19@gmail.com",
+            "id": "3"
+        },
+        {
+            "identificacion": "1282192348",
+            "nombres": "Oscar Mauricio",
+            "apellidos": "Hernandez Arce",
+            "telefono": 3121234244,
+            "fechaNac": "2002-09-30",
+            "ciudadOrig": "Bucaramanga",
+            "paisOrig": "Colombia",
+            "email": "usuario43@gmail.com",
+            "id": "4"
+        }
+    ],
+    "Rutas" : [
+        {
+        "nombreRuta": "Bogota-Madrid",
+        "ciudadOrig": "Bogota",
+        "ciudadDest": "Madrid",
+        "paisOrig": "Colombia",
+        "totalMillas": "4992",
+        "valorMillas": "14000",
+        "id": "1"
+        },
+        {
+        "nombreRuta": "Cucuta-Bogota",
+        "ciudadOrig": "Cucuta",
+        "ciudadDest": "Bogota",
+        "paisOrig": "Colombia",
+        "totalMillas": "321",
+        "valorMillas": "8000",
+        "id": "2"
+        },
+        {
+        "nombreRuta": "Bogota-Ciudad de Mexico",
+        "ciudadOrig": "Bogota",
+        "ciudadDest": "Ciudad de Mexico",
+        "paisOrig": "Colombia",
+        "totalMillas": "1324",
+        "valorMillas": "5000",
+        "id": "3"
+        },
+        {
+        "nombreRuta": "Cali-Neiva",
+        "ciudadOrig": "Cali",
+        "ciudadDest": "Neiva",
+        "paisOrig": "Colombia",
+        "totalMillas": "260",
+        "valorMillas": "3000",
+        "id": "4"
+        }
+    ],
+    "Flotas" : [
+        {
+            "numeroAero": "224d3433FD",
+            "cantidadPas": "60",
+            "fechaCom": "2023-01-26",
+            "valorCom": 80.000,
+            "matricula": "242LA23S",
+            "id": "1"
+        },
+        {
+            "numeroAero": "3482SAS342",
+            "cantidadPas": "40",
+            "fechaCom": "2022-10-13",
+            "valorCom": 60.000,
+            "matricula": "SJ329DL",
+            "id": "2"
+        },
+        {
+            "numeroAero": "O340PA3442",
+            "cantidadPas": "50",
+            "fechaCom": "2023-04-09",
+            "valorCom": 100.000,
+            "matricula": "38RIFJ34",
+            "id": "3"
+        },
+        {
+            "numeroAero": "LA203430",
+            "cantidadPas": "40",
+            "fechaCom": "2023-02-10",
+            "valorCom": 70.000,
+            "matricula": "293KSKA23",
+            "id": "4"
+        }
+    ],
+    "Compras" : [
+        {
+            "identificacion": "1920302202",
+            "nombres": "Jaime Santiago",
+            "apellidos": "Florez Pimentel",
+            "telefono": "23249320922",
+            "email": "usuario37@gmail.com",
+            "ciudadOrig": "Bogota",
+            "ciudadDest": "Chicago",
+            "id": "1"
+        },
+        {
+            "identificacion": "234828193",
+            "nombres": "Maria Camila",
+            "apellidos": "Valderrama Zamanta",
+            "telefono": "23040202394",
+            "email": "usuario11@gmail.com",
+            "ciudadOrig": "Madrid",
+            "ciudadDest": "Bogota",
+            "id": "2"
+        },
+        {
+            "identificacion": "1920302202",
+            "nombres": "Jairo Manuel",
+            "apellidos": "Gonzales Figueroa",
+            "telefono": "294829123",
+            "email": "usuario07@gmail.com",
+            "ciudadOrig": "Santa Martha",
+            "ciudadDest": "Neiva",
+            "id": "3"
+        },
+        {
+            "identificacion": "12943832",
+            "nombres": "Sergio Lambon",
+            "apellidos": "Rojas Velazco",
+            "telefono": "32133243",
+            "email": "usuario22@gmail.com",
+            "ciudadOrig": "Cucuta",
+            "ciudadDest": "Barranquilla",
+            "id": "4"
+        }
+    ],
+    "Embarque" : [
+        {
+            "identificacion": "24343323",
+            "fechaVuelo": "2023-05-12",
+            "numeroVuelo" : "2234",
+            "id": "1"
+        },
+        {
+            "identificacion": "384893294",
+            "fechaVuelo": "2023-02-22",
+            "numeroVuelo" : "4432",
+            "id": "2"
+        },
+        {
+            "identificacion": "92394202",
+            "fechaVuelo": "2022-12-04",
+            "numeroVuelo" : "5454",
+            "id": "3"
+        },
+        {
+            "identificacion": "23454555",
+            "fechaVuelo": "2022-10-22",
+            "numeroVuelo" : "5352",
+            "id": "4"
+        }
+    ],
+    "Personal" : [
+        {
+            "identificacion": "229339203",
+            "nombres": "Daniel Andres",
+            "apellidos": "Alvarez Cediel",
+            "telefono": "23409202",
+            "email": "usuario52@gmail.com",
+            "profesion" : "Piloto",
+            "id": "1"
+        },
+        {
+            "identificacion": "324655345",
+            "nombres": "Juan Pablo",
+            "apellidos": "Alvarez Gomez",
+            "telefono": "23422434",
+            "email": "usuario58@gmail.com",
+            "profesion" : "Copiloto",
+            "id": "2"
+        },
+        {
+            "identificacion": "02848292",
+            "nombres": "Manuela Andrea",
+            "apellidos": "Duran Gelvez",
+            "telefono": "40233204",
+            "email": "usuario12@gmail.com",
+            "profesion" : "Azafata",
+            "id": "3"
+        },
+        {
+            "identificacion": "45659239",
+            "nombres": "Karoline Angelica",
+            "apellidos": "Gomez Garcia",
+            "telefono": "2440345432",
+            "email": "usuario62@gmail.com",
+            "profesion" : "Azafata",
+            "id": "4"
+        }
+    ]
+}
